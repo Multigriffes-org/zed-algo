@@ -1,0 +1,4 @@
+name = "Algorithme"
+grammar = "algo"
+path_suffixes = ["algo"]
+line_comments = ["// "]

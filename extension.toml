@@ -1,0 +1,11 @@
+id = "algo-lang"
+name = "Algorithme Language Support"
+version = "0.0.1"
+schema_version = 1
+authors = ["Multigriffes <multigriffes@laposte.net>"]
+description = "Add the support for algorithme language"
+repository = "https://github.com/Multigriffes-org/zed-algo"
+
+[grammars.algo]
+repository = "https://github.com/Multigriffes-org/tree-sitter-algo"
+commit = "HEAD"
