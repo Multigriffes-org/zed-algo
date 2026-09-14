@@ -1,4 +1,4 @@
-name = "Algorithme"
+name = "Algo"
 grammar = "algo"
 path_suffixes = ["algo"]
-line_comments = ["// "]
+line_comments = ["//"]

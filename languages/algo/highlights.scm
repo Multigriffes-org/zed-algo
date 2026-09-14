@@ -9,29 +9,34 @@
 (comment) @comment
 
 (func_definition
-  name: (identifier) @function
-  args: (parameter_list
-    names: (identifier) @variable))
+  (identifier) @function
+  (parameter_list
+    (identifier) @variable))
 
 "Lexique:" @keyword
 
+(primitive_type) @type
+
 (vocabulary
   (const_declaration
-    name: (identifier) @constant
-    (type_definition
-      (primitive_type) @type))
+    (identifier) @constant
+    (type_definition))
   (var_declaration
-    name: (identifier) @variable
-    (type_definition
-      (primitive_type) @type)))
+    (identifier) @variable
+    (type_definition))
+  (func_declaration
+    (identifier) @function
+    (parameter_list
+      (identifier) @variable)))
 
 "Algorithme:" @keyword
 
+(return) @keyword
+
 (algorithme
   (statement
-    (return) @keyword
     (assignation
-      name: (identifier) @variable)))
+      (identifier) @variable)))
 
 "+" @operator
 
