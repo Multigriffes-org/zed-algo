@@ -9,9 +9,11 @@
 (comment) @comment
 
 (func_definition
-  (identifier) @function
-  (parameter_list
-    (identifier) @variable))
+  (identifier) @function)
+
+"retourner" @keyword
+
+"return" @keyword
 
 "Lexique:" @keyword
 
@@ -25,14 +27,11 @@
     (identifier) @variable
     (type_definition))
   (func_declaration
-    (identifier) @function
-    (parameter_list
-      (identifier) @variable)))
+    (identifier) @function))
 
 "Algorithme:" @keyword
 
-(return) @keyword
-
+;(return) @keyword
 (algorithme
   (statement
     (assignation
