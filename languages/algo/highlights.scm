@@ -26,13 +26,7 @@
 (var_declaration
   (identifier) @name)
 
-(start_keyword) @keyword
-
-(end_keyword) @keyword
-
-(return_keyword) @keyword
-
-"Lexique:" @keyword
+(keyword) @keyword
 
 (primitive_type) @type
 
@@ -45,8 +39,6 @@
     (type_definition))
   (func_declaration
     (identifier) @function))
-
-"Algorithme:" @keyword
 
 (algorithme
   (algorithme_boundary
