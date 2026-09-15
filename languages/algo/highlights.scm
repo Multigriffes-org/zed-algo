@@ -11,9 +11,11 @@
 (func_definition
   (identifier) @function)
 
-"retourner" @keyword
+(start_keyword) @keyword
 
-"return" @keyword
+(end_keyword) @keyword
+
+(return_keyword) @keyword
 
 "Lexique:" @keyword
 
@@ -33,9 +35,10 @@
 
 ;(return) @keyword
 (algorithme
-  (statement
-    (assignation
-      (identifier) @variable)))
+  (algorithme_boundary
+    (statement
+      (assignation
+        (identifier) @variable))))
 
 "+" @operator
 

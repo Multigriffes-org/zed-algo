@@ -8,4 +8,4 @@ repository = "https://github.com/Multigriffes-org/zed-algo"
 
 [grammars.algo]
 repository = "https://github.com/Multigriffes-org/tree-sitter-algo"
-rev = "ae24bdeb8058543b8f0dbfb6e046e0a2cf2c4751"
+rev = "main"
