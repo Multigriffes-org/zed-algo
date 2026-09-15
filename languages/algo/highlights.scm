@@ -8,8 +8,23 @@
 
 (comment) @comment
 
+(assignation
+  (identifier) @name)
+
 (func_definition
   (identifier) @function)
+
+(func_call
+  (identifier) @function)
+
+(func_declaration
+  (identifier) @function)
+
+(const_declaration
+  (identifier) @constant)
+
+(var_declaration
+  (identifier) @name)
 
 (start_keyword) @keyword
 
@@ -33,12 +48,13 @@
 
 "Algorithme:" @keyword
 
-;(return) @keyword
 (algorithme
   (algorithme_boundary
     (statement
       (assignation
         (identifier) @variable))))
+
+"," @punctuation.delimiter
 
 "+" @operator
 
@@ -49,3 +65,9 @@
 "*" @operator
 
 "%" @operator
+
+"<-" @operator
+
+"->" @operator
+
+":" @punctuation

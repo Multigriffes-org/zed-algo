@@ -1,2 +1,1 @@
-(func_definition
-  (identifier) @run)
+(func_definition) @run
