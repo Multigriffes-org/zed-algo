@@ -3,6 +3,3 @@
 
 ("{" @open
   "}" @close)
-
-("\"" @open
-  "\"" @close)

@@ -2,6 +2,6 @@
 
 (vocabulary) @indent
 
-(algorithme_boundary) @indent
-
 (algorithme) @indent
+
+(algorithme_boundary) @indent
