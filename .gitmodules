@@ -1,0 +1,3 @@
+[submodule "grammars/algo"]
+	path = grammars/algo
+	url = git@github.com:Multigriffes-org/tree-sitter-algo.git

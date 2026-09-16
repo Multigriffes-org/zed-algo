@@ -7,5 +7,5 @@ description = "Add support for algorithme language"
 repository = "https://github.com/Multigriffes-org/zed-algo"
 
 [grammars.algo]
-repository = "https://github.com/Multigriffes-org/tree-sitter-algo"
+repository = "git@github.com:Multigriffes-org/tree-sitter-algo.git"
 rev = "main"
